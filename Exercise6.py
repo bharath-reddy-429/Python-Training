@@ -5,7 +5,9 @@ def fun():
     c1=['Rock','Scissors']
     c2=['Scissors','Paper']
     c3=['Paper','Rock']
-    if c==c1:
+    if p1==p2:
+        print("Draw")
+    elif c==c1:
         print('Congratulations player 1')
     elif c==c2:
         print('Congratulations player 1')
@@ -18,7 +20,7 @@ def fun():
     e=input()
     return e
 e='Yes'
-while(e=='Yes'):
+while(e=='Yes' or e in ('yes', 'Yes', 'y', 'YES', 'Y')):
     e=fun()
 
 

@@ -1,0 +1,7 @@
+t=(1,2,3,4,5,6)
+print(t)
+print(max(t))
+print(min(t))
+print(len(t))
+t1=(1,2,3,4)
+print(len(t+t1))
